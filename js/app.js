@@ -28,6 +28,9 @@ if (age < 18) {
   }
 
 
+/*6- stampa sulla pagina web il risultato della somma delle costanti*/
+document.write("Il prezzo totale del tuo viaggio è: €" + bigliettoPrezzo.toFixed(2));  
+
  
 
 
