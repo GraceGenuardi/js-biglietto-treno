@@ -1,0 +1,23 @@
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-image: url(../img/Immagine\ 2023-01-31\ 164134.png);
+    height: 80vh;
+   
+
+}
+
+.ticket{
+    border: 2px solid black;
+    background-color: white;
+   
+    
+}
+
+.sconto{
+    color: rgb(23, 212, 23);
+}
