@@ -16,7 +16,19 @@ const scontoAnziani = 0.4;  /*Valore sconto over 65*/
 
 /*4- Stabilisci l'operazione per cui dare un prezzo al biglietto in base ai km e al costo del biglietto per km*/
 
-let bigliettoPrezzo = distance * bigliettoPerKm;
+let bigliettoPrezzo = distance * bigliettoPerKm
+
+
+/*5- Istruzioni condizionali: stabilisci il valore sconto in base all'età, ossia <18=02 , >65=0.4*/
+
+if (age < 18) {
+    bigliettoPrezzo *= 1 - scontoTeeneger;
+  } else if (age >= 65) {
+    bigliettoPrezzo *= 1 - scontoAnziani;
+  }
+
+
+ 
 
 
 
