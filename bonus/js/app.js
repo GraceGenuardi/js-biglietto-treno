@@ -1,5 +1,3 @@
-
-
 /*1-Chiedi all'utente la distanza */
 const distance = parseFloat(prompt("Quanti km vuoi percorrere?"));
 
@@ -31,22 +29,4 @@ if (age < 18) {
 /*6- stampa sulla pagina web il risultato della somma delle costanti*/
 document.write("Il prezzo totale del tuo viaggio è: €" + bigliettoPrezzo.toFixed(2)); 
 console.log("calcolo prezzo totale del viaggio con sconto");
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
